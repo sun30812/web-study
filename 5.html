@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>document.write()</title>
+	<style>
+		table {
+			border: "1"
+		}
+	</style>
+</head>
+
+<body>
+	<h1>document.write()로 표만들기</h1>
+	<hr>
+	<table>
+		<tbody>
+			<tr>
+				<th>n</th>
+				<script>
+					for (let dats = 0; dats < 10; dats++) {
+						document.write("<td>" + dats + "</td>");
+					}
+				</script>
+			</tr>
+			<tr>
+				<th>n<sup>2</sup></th>
+				<script>
+					for (let dats = 0; dats < 10; dats++) {
+						document.write("<td>" + Math.pow(dats, 2) + "</td>");
+					}
+				</script>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+
+</html>
