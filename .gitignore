@@ -1,2 +1,6 @@
-# 이 파일은 굳이 github에 있을 필요가 없습니다.
+# 이 파일 및 폴더는 굳이 github에 있을 필요가 없습니다.
 tags
+training
+.DS_Store
+package-lock.json
+node_modules
